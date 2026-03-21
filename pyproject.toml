@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "embedded-toolkit"
+version = "1.0.0"
+description = "Python utilities for embedded systems: Kalman filter, PID, CRC, serial framing"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ahmed Qandel", email = "contact@ahmedqandel.com"}]
+requires-python = ">=3.9"
+dependencies = ["pyserial>=3.5"]
+keywords = ["embedded", "iot", "kalman", "pid", "crc", "modbus", "stm32", "raspberry-pi"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: System :: Hardware",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://ahmedqandel.com"
+Repository = "https://github.com/Qandel-Embedded/embedded-toolkit"
